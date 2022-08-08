@@ -1,7 +1,6 @@
 defmodule PentoWeb.Pento.Colors do
-
-  
   def color(c), do: color(c, false)
+
   def color(_color, true), do: "#B86EF0"
   def color(:green, _active), do: "#8BBF57"
   def color(:dark_green, _active), do: "#689042"
@@ -16,6 +15,4 @@ defmodule PentoWeb.Pento.Colors do
   def color(:dark_blue, _active), do: "#63969B"
   def color(:light_blue, _active), do: "#B9D7DA"
   def color(:purple, _active), do: "#240054"
-
-
 end

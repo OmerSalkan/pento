@@ -1,7 +1,6 @@
-
 defmodule PentoWeb.Pento.Point do
   use Phoenix.Component
-
+  alias PentoWeb.Pento.Point
   @width 10
 
 def draw(assigns) do
@@ -20,3 +19,4 @@ end
     (i-1) * @width + 2 * @width
   end
 end
+

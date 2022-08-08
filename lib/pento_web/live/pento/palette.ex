@@ -31,12 +31,3 @@ defmodule PentoWeb.Pento.Palette do
     |> Pentomino.to_shape
   end
 end
-
-
-
-
-
-
-
-
-
