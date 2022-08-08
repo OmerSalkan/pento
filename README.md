@@ -1,4 +1,4 @@
-# Pento
+# Pento live : https://omer-pento-app.fly.dev/
 
 To start your Phoenix server:
 
