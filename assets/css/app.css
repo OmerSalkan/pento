@@ -129,5 +129,12 @@
 }
 .navigacija ul li a {
   color: orangered;
+  font-size: 2rem;
+  transition: ease-in .3s;
   
+}
+
+.navigacija ul li a:hover{
+  color: blue;
+  transition: ease-in-out .3s;
 }
