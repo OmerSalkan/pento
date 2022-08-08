@@ -118,3 +118,16 @@
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+.navigacija ul{
+  display: flex;
+  padding-top: 30px;
+}
+.navigacija ul li  {
+  list-style: none;
+  padding-right: 20px;
+}
+.navigacija ul li a {
+  color: orangered;
+  
+}

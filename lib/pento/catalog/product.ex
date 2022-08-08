@@ -10,10 +10,10 @@ defmodule Pento.Catalog.Product do
     field :unit_price, :float
     field :image_upload, :string
     timestamps()
-    has_many :ratings, Rating 
+    has_many :ratings, Rating
   end
 
-  @doc false
+  
   def changeset(product, attrs) do
     product
     |> cast(attrs, [:name, :description, :unit_price, :sku])
